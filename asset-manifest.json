@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/khsReactPortfolio/static/css/main.5f71eef0.css",
+    "main.js": "/khsReactPortfolio/static/js/main.aa88fd84.js",
+    "static/js/787.128fc6e9.chunk.js": "/khsReactPortfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/sol.png": "/khsReactPortfolio/static/media/sol.9c2f60ce10159a0df890.png",
+    "static/media/slidebanner6.png": "/khsReactPortfolio/static/media/slidebanner6.a3e24fd1f523c9789532.png",
+    "static/media/slidebanner4.png": "/khsReactPortfolio/static/media/slidebanner4.209214917cca44fd0185.png",
+    "static/media/slidebanner2.png": "/khsReactPortfolio/static/media/slidebanner2.9a75a24d61441ace14dc.png",
+    "static/media/slidebanner3.png": "/khsReactPortfolio/static/media/slidebanner3.286cd944b1c62e8947e2.png",
+    "static/media/slidebanner5.png": "/khsReactPortfolio/static/media/slidebanner5.da329d0dfe9d8a5d3da3.png",
+    "static/media/slidebanner1.png": "/khsReactPortfolio/static/media/slidebanner1.00f5f94dc669f6a095a2.png",
+    "static/media/sol2.png": "/khsReactPortfolio/static/media/sol2.ad5b0d4229d9a102b025.png",
+    "static/media/sk1.png": "/khsReactPortfolio/static/media/sk1.ad7b737ab7661f50f84f.png",
+    "static/media/sk2.png": "/khsReactPortfolio/static/media/sk2.7015713b4fccc10b7e47.png",
+    "static/media/sk3.png": "/khsReactPortfolio/static/media/sk3.37336fac114480178864.png",
+    "static/media/address.png": "/khsReactPortfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/khsReactPortfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/phone.png": "/khsReactPortfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/slick.svg": "/khsReactPortfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/khsReactPortfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/khsReactPortfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/khsReactPortfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/khsReactPortfolio/index.html",
+    "main.5f71eef0.css.map": "/khsReactPortfolio/static/css/main.5f71eef0.css.map",
+    "main.aa88fd84.js.map": "/khsReactPortfolio/static/js/main.aa88fd84.js.map",
+    "787.128fc6e9.chunk.js.map": "/khsReactPortfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f71eef0.css",
+    "static/js/main.aa88fd84.js"
+  ]
+}
