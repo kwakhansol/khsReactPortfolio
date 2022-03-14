@@ -1,0 +1,164 @@
+.i {
+    display: flex;
+    height: 100vh;
+    position: relative;
+  }
+
+.logo{
+  width: 100%;
+  margin:0 auto;
+  height: 30px;
+  position: absolute;
+}
+  
+.i-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-left-wrapper {
+  /* padding: 50px; */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+.i-intro {
+  font-size: 30px;
+  font-weight: 400;
+}
+  
+.i-name {
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+  
+.i-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.i-title-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.i-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #59b256;
+  display: flex;
+  
+}
+
+
+.i-right {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+  .i-img {
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  position: absolute;
+  bottom:-5px;
+
+}
+
+.i-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+  /* 스크롤 */
+  .scrollImg{
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left:50%; 
+    margin: 0 auto;
+  }
+  
+  .arrowDown{
+    width: 30px;
+    animation: Blink 1s infinite;
+  }
+  
+  span{
+    display: block;
+    color:lightgray;
+    opacity: 70%;
+  }
+  @keyframes Blink{
+    100%{
+        opacity: 0;
+    }
+  }
+  
+
+@media screen and (max-width:767px){
+  .i{
+    flex-direction: column ;
+    overflow: hidden;
+  }
+  .i-left-wrapper{
+ 
+    padding:10px;
+    left: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .i-name {
+    font-size: 50px;
+  }
+  .i-intro{
+    font-size: 20px;
+  }
+  .i-title-item{
+    font-size: 25px;  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .i-desc{
+    display: none;
+  }
+  .i-img {
+    top:0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #59b256;
+  }
+}
