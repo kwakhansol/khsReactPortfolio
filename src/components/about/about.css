@@ -107,11 +107,15 @@
   }
   .a-info-title{
     width: 20%;
-    padding:2%;
+    padding:10px;
     position: absolute;
     margin-left: 14%;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    
   }
   .a-info-desc{
     width: 100%;
